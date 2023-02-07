@@ -1,3 +1,10 @@
+    
+def debug_print(debug_msg=None, **kwargs):
+
+    if debug_msg:
+        print(debug_msg)
+
+    for key, value in kwargs.items():
         print("{}: {}".format(key, value))
 
 
